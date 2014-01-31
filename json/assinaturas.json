@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Day",
+        "price": 1.99,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "name": "Month",
+        "price": 45.99,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "name": "Year",
+        "price": 650.99,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    }
+]

@@ -1,0 +1,64 @@
+<form class="info_form" name="form" novalidate>
+
+    <div class="linha_form">
+        <label>Full name:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" ng-model="user.nome" autocomplete="off" required/>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>Adress:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" ng-model="user.adress" size="33" required>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>Neighborhood:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" ng-model="user.neighborhood" size="33" required>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>City:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" size="33" ng-model="user.city" required>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>State:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" size="33" ng-model="user.state" required>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>CEP:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" name="uCEP" ng-model="user.cep" required>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>E-mail:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" name="uEmail" ng-model="user.email" autocomplete="off" placeholder="exemplo@email.com.br" required>
+        </div>
+    </div>
+
+    <div class="linha_form">
+        <label>Phone:</label>
+        <div class="input_preencher">
+            <input type="text" class="form-control" name="uPhone" ng-model="user.phone" autocomplete="off" required>
+        </div>
+    </div>
+
+    <div clear="all" style="margin-top: 50px;">
+         <a href="#/finaliza" ng-click="next()" class="btn btn-block btn-sm btn-primary" role="button"> continue </a>
+        <button class="btn btn-block btn-sm btn-danger" ng-click="clear()">Clear</button>
+    </div>
+
+</form>

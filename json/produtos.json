@@ -1,0 +1,44 @@
+[
+    {
+        "id": "motorola-xoom-with-wi-fi",
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "name": "MotorolaXOOM",
+        "price": 850.95,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "id": "motorola-xoom",
+        "imageUrl": "img/phones/motorola-xoom.0.jpg",
+        "name": "MOTOROLA XOOM Wifi",
+        "price": 880.99,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "id": "motorola-atrix-4g",
+        "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
+        "name": "MOTOROLA ATRIX 4G",
+        "price": 1530.85,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "id": "dell-streak-7",
+        "imageUrl": "img/phones/dell-streak-7.0.jpg",
+        "name": "Dell Streak 7",
+        "price": 700.95,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "id": "samsung-gem",
+        "imageUrl": "img/phones/samsung-gem.0.jpg",
+        "name": "Samsung Gem",
+        "price": 750.55,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    },
+    {
+        "id": "dell-venue",
+        "imageUrl": "img/phones/dell-venue.0.jpg",
+        "name": "Dell Venue",
+        "price": 990.99,
+        "snippet": "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+    }
+]

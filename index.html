@@ -1,0 +1,85 @@
+<!doctype html>
+<html ng-app="storePayPal">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desafio PayPal</title>
+
+    <!-- styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- libs -->
+    <script src="lib/jquery-1.9.1.min.js"></script>
+    <script src="lib/angular-1.2.10.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+
+    <div class="all">
+
+        <div class="container">
+            <div>
+                <div>
+                    <h1 class="well"> Hackathon PayPal </h1>
+                    <div ng-view></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer_ct">
+            <div class="left divisor">
+                <h4> Payment methods </h4>
+                <div class="boxOpcao">
+                    <h5> Credit cards </h5>
+                    <ul>
+                        <li class="li_ft">
+                            <img src="img/American.gif" alt="American Express" title="American Express">
+                        </li>
+                        <li class="li_ft">
+                            <img src="img/Diners.gif" alt="Diners" title="Diners">
+                        </li>
+                        <li class="li_ft">
+                            <img src="img/Hipercard.gif" alt="Hipercard" title="Hipercard">
+                        </li>
+                        <li class="li_ft">
+                            <img src="img/Master.gif" alt="Master" title="Master">
+                        </li>
+                        <li class="li_ft">
+                            <img src="img/visa_v2.jpg" alt="Visa" title="Visa">
+                        </li>
+                        <li class="li_ft">
+                            <img src="img/Elo.gif" alt="Elo" title="Elo">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="boxOpcao">
+                    <h5>PayPal</h5>
+                    <ul>
+                        <li class="li_ft">
+                            <img src="img/selo_aceitacao_vertical.jpg" alt="PayPal" title="PayPal">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="left">
+                <h4> Security </h4>
+                <div class="boxOpcao">
+                    <ul>
+                        <li class="li_ft">
+                            <img src="https://www.paypalobjects.com/webstatic/mktg/br/compra_segura_horizontal.png" border="0" alt="Compra Segura PayPal">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+  </body>
+</html>
