@@ -13,7 +13,7 @@ storeApp.config(function($routeProvider, $httpProvider) {
 		when('/information', {controller: informationController, templateUrl: 'information.html'}).
 		when('/finaliza', {controller: finalizaController, templateUrl: 'finaliza.php'}).
 		when('/createprofile', {controller: profileController, templateUrl: 'createprofile.php'}).
-		when('/congratulations', {controller: congratulationsController, templateUrl: 'congratulations.html'}).
+		when('/congratulations', {controller: congratulationsController, templateUrl: 'congratulations.php'}).
 		otherwise({redirectTo: '/home'});
 });
 
@@ -94,6 +94,18 @@ function congratulationsController ($scope) {
 	"use strict";
 
 	var ng = $scope;
+
+	ng.transID = getURLParameters('transID', window.location.href);
+
+	ng.verificaTransacao = function(){
+		console.log(ng.transID)
+
+		if (ng.transID != ""){
+			return true;
+		}else{
+			return false;
+		}
+	};
 }
 
 function profileController ($scope) {
@@ -134,4 +146,22 @@ function informationController ($scope) {
 		};
 	};
 
+}
+
+function getURLParameters( param, url ) {
+    param = param.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+param+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    //se url não for informada, assume a url corrente da página
+    if (typeof url == "undefined")
+        var results = regex.exec( window.location.href );
+    else
+        var results = regex.exec( url );
+
+    if( results == null ){
+        return "";
+    }
+    else {
+        return results[1];
+    }
 }

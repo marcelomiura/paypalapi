@@ -34,20 +34,20 @@ ChromePhp::log($payerID);
 
 //Campos que serão enviados com a operação SetExpressCheckout
 $requestNvp = array(
-    'METHOD'    => 'CreateRecurringPaymentsProfile',
-    'VERSION'   => '108.0',
-    'PWD'       => $pswd,
-    'USER'      => $user,
-    'SIGNATURE' => $signature,
-    'TOKEN'     => $token,
-    'PayerID' => $payerID,
-    'PROFILESTARTDATE' => '2014-02-08T16:00:00Z',
-    'DESC' => 'Exemplo',
-    'BILLINGPERIOD' => 'Month',
-    'BILLINGFREQUENCY' => '1',
-    'AMT' => 100,
-    'CURRENCYCODE' => 'BRL',
-    'COUNTRYCODE' => 'BR',
+    'METHOD'            => 'CreateRecurringPaymentsProfile',
+    'VERSION'           => '108.0',
+    'PWD'               => $pswd,
+    'USER'              => $user,
+    'SIGNATURE'         => $signature,
+    'TOKEN'             => $token,
+    'PayerID'           => $payerID,
+    'PROFILESTARTDATE'  => '2014-02-08T16:00:00Z',
+    'DESC'              => 'Exemplo',
+    'BILLINGPERIOD'     => 'Month',
+    'BILLINGFREQUENCY'  => '1',
+    'AMT'               => 100,
+    'CURRENCYCODE'      => 'BRL',
+    'COUNTRYCODE'       => 'BR',
     'MAXFAILEDPAYMENTS' => 3
 );
 

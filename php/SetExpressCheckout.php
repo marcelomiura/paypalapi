@@ -21,6 +21,7 @@ if ($plan == "flag") {
     // $returnURL = 'http://localhost:8888/modelo_paypal/#/createprofile';
 } else {
     $returnURL = 'http://novadelicia.com.br/cpbr/confirm.php';
+    // $returnURL = 'http://localhost:8888/modelo_paypal/#/confirm';
 }
 
 //URL de cancelamento, caso o cliente desista do pagamento

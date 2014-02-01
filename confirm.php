@@ -40,6 +40,7 @@ $requestNvp = array(
     'TOKEN'     => $token
 );
 
+// ChromePhp::log($requestNvp);
 
 //Envia a requisição e obtém a resposta da PayPal
 $responseNvp = sendNvpRequest($requestNvp, $sandbox);
@@ -90,12 +91,16 @@ if (isset($responseNvp['ACK']) && $responseNvp['ACK'] == 'Success') {
     //Envia a requisição e obtém a resposta da PayPal
     $responseNvp = sendNvpRequest($requestNvp, $sandbox);
 
+    ChromePhp::log($responseNvp);
+
     // print_r ($responseNvp);
 
     //Se a operação tiver sido bem sucedida, redireciona o cliente para o ambiente de pagamento.
     if (isset($responseNvp['ACK']) && $responseNvp['ACK'] == 'Success' && $responseNvp['PAYMENTINFO_0_PAYMENTSTATUS'] == 'Completed') {
 
-        header("location: ./#/congratulations");
+        $transID = $responseNvp['PAYMENTINFO_0_TRANSACTIONID'];
+
+        header("location: ./#/congratulations?transID=".$transID );
 
     } else {
         //alguma coisa aconteceu

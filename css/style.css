@@ -1,208 +1,208 @@
-body{
-	margin: 10px;
-	padding: 0;
-	height: 100%;
-	background-color: #F5F5F5;
-}
-
-
-h5{
-	border-bottom: 3px double #D7D8D7;
-	color: #7f7f7f;
-	display: inline-block;
-	font-family: Arial,Helvetica,sans-serif;
-	font-size: 13px;
-	font-weight: normal;
-	padding: 0 0 5px 3px;
-	width: 100%;
-}
-
-table{
-	background-color: white;
-}
-
-form{
-	background-color: white;
-	padding: 0px;
-	margin-bottom: 5px;
-}
-
-.left{
-	float: left;
-}
-
-.right{
-	float: right;
-}
-
-.well{
-	background-color: #E5E5E5;
-}
-
-.ct_btn{
-	position: absolute;
-	bottom: 0;
-}
-
-.all{
-	position: relative;
-	min-height: 100%;
-}
-
-/* ================================ HOME =========================================== */
-.container{
-	width: 1024px;
-	margin: 0 auto;
-	padding-bottom: 190px;
-}
-
-.thumbnail > img{
-	width: 150px;
-	height: 150px;
-}
-
-.thumbnail{
-	position: relative;
-	min-height: 380px;
-}
-
-.price{
-	font-size: 20px;
-	font-weight: bold;
-	color: #4faaf9;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	padding: 0 12px 12px 0;
-}
-
-.price_plan{
-	font-size: 20px;
-	font-weight: bold;
-	color: #4faaf9;
-	position: absolute;
-	right: 0;
-	padding: 0 12px 12px 0;
-}
-
-.plans{
-	position: relative;
-	display: block;
-	height: 160px;
-	padding: 10px;
-	margin-bottom: 20px;
-	line-height: 1.428571429;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-}
-
-/* ================================ PRODUCT =========================================== */
-.tb_title{
-	font-weight: bold;
-	font-size: 12px;
-	color: #31708f;
-}
-
-.total_price{
-	font-weight: bold;
-	font-size: 16px;
-	color: #4199c6;
-}
-
-.tdCenter{
-	width: 100px;
-}
-
-.tnk_shop{
-	font-size: 18px;
-	text-align: center;
-	border-radius: 4px;
-}
-
-/* ================================ INFORMATION =========================================== */
-.info_form{
-	padding: 10px;
-	border: 1px solid #E5E5E5;
-	background-color: white;
-}
-
-.linha_form{
-    height: 36px;
-    width: 100%;
-    line-height: 36px;
-    clear: both;
-}
-
-.linha_form label{
-    width: 120px;
-    float: left;
-    padding-right: 15px;
-    text-align: right;
-    font-weight: bold;
-}
-
-.input_preencher{
-    float: left;
-}
-
-.fail{
-    border-color: rgba(245, 5, 5, 0.8);
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 5, 5, 0.6);
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 5, 5, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 5, 5, 0.6);
-}
-
-.valido{
-    border-color: rgba(12, 173, 3, 0.8);
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 173, 3, 0.6);
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 173, 3, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 173, 3, 0.6);
-}
-
-.alinhabtn{
-    margin-left: 110px;
-}
-
-.alerta, .alertaNulo {
-    color           : #FF0000;
-    padding         : 0 4px;
-    margin-left     : 10px;
-    border-radius   : 3px;
-    background-color: #FFD7D8;
-    border          : thin solid red;
-}
-
-/* ================================ FOOTER =========================================== */
-.footer_ct{
-	width: 1024px;
-	left: 50%;
-	padding: 4px 0;
-	margin-left: -512px;
-	position: absolute;
-	bottom: 0;
-	border-top: 1px solid #2c3e50;
-}
-
-.footer_ct ul{
-	padding: 0;
-}
-
-.divisor{
-	border-right: 1px solid #D7D8D7;
-	margin-right: 25px;
-}
-
-.boxOpcao{
-	display: inline;
-	float: left;
-	margin: 5px 30px 30px 0;
-}
-
-.li_ft{
-	display: inline; float: left; height: 38px; margin: 0 11px 11px 0;
+body{
+	margin: 10px;
+	padding: 0;
+	height: 100%;
+	background-color: #F5F5F5;
+}
+
+
+h5{
+	border-bottom: 3px double #D7D8D7;
+	color: #7f7f7f;
+	display: inline-block;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0 0 5px 3px;
+	width: 100%;
+}
+
+table{
+	background-color: white;
+}
+
+form{
+	background-color: white;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.well{
+	background-color: #E5E5E5;
+}
+
+.ct_btn{
+	position: absolute;
+	bottom: 0;
+}
+
+.all{
+	position: relative;
+	min-height: 100%;
+}
+
+/* ================================ HOME =========================================== */
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 190px;
+}
+
+.thumbnail > img{
+	width: 150px;
+	height: 150px;
+}
+
+.thumbnail{
+	position: relative;
+	min-height: 380px;
+}
+
+.price{
+	font-size: 20px;
+	font-weight: bold;
+	color: #4faaf9;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0 12px 12px 0;
+}
+
+.price_plan{
+	font-size: 20px;
+	font-weight: bold;
+	color: #4faaf9;
+	position: absolute;
+	right: 0;
+	padding: 0 12px 12px 0;
+}
+
+.plans{
+	position: relative;
+	display: block;
+	height: 160px;
+	padding: 10px;
+	margin-bottom: 20px;
+	line-height: 1.428571429;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+/* ================================ PRODUCT =========================================== */
+.tb_title{
+	font-weight: bold;
+	font-size: 12px;
+	color: #31708f;
+}
+
+.total_price{
+	font-weight: bold;
+	font-size: 16px;
+	color: #4199c6;
+}
+
+.tdCenter{
+	width: 100px;
+}
+
+.tnk_shop{
+	font-size: 18px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+/* ================================ INFORMATION =========================================== */
+.info_form{
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	background-color: white;
+}
+
+.linha_form{
+    height: 36px;
+    width: 100%;
+    line-height: 36px;
+    clear: both;
+}
+
+.linha_form label{
+    width: 120px;
+    float: left;
+    padding-right: 15px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.input_preencher{
+    float: left;
+}
+
+.fail{
+    border-color: rgba(245, 5, 5, 0.8);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 5, 5, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 5, 5, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 5, 5, 0.6);
+}
+
+.valido{
+    border-color: rgba(12, 173, 3, 0.8);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 173, 3, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 173, 3, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(12, 173, 3, 0.6);
+}
+
+.alinhabtn{
+    margin-left: 110px;
+}
+
+.alerta, .alertaNulo {
+    color           : #FF0000;
+    padding         : 0 4px;
+    margin-left     : 10px;
+    border-radius   : 3px;
+    background-color: #FFD7D8;
+    border          : thin solid red;
+}
+
+/* ================================ FOOTER =========================================== */
+.footer_ct{
+	width: 1024px;
+	left: 50%;
+	padding: 4px 0;
+	margin-left: -512px;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #2c3e50;
+}
+
+.footer_ct ul{
+	padding: 0;
+}
+
+.divisor{
+	border-right: 1px solid #D7D8D7;
+	margin-right: 25px;
+}
+
+.boxOpcao{
+	display: inline;
+	float: left;
+	margin: 5px 30px 30px 0;
+}
+
+.li_ft{
+	display: inline; float: left; height: 38px; margin: 0 11px 11px 0;
 }
