@@ -10,9 +10,9 @@ $sandbox = true;
 if ($sandbox) {
     $paypalURL = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
     //credenciais da API para o Sandbox
-    $user = 'empresa_teste_api1.exemplo.com.br';
-    $pswd = '1390932388';
-    $signature = 'Abe71FlSItlBpVShdmwmOGXUHNFtARU-8OPz2sdYQSIFP5Fv7auorA8t';
+    $user = 'empresa_api1.empresateste.com.br';
+    $pswd = '1390932561';
+    $signature = 'A1iK8SWiLlvpgdDfIXRoaVGOvHOnADYgKKY3P6rp1r-IUylwnTE6Lece';
 } else {
     $paypalURL = 'https://www.paypal.com/cgi-bin/webscr';
     //credenciais da API para produção
@@ -25,7 +25,7 @@ $postdata = file_get_contents("php://input");
 $request = json_decode($postdata, true);
 
 $token = $_GET['token'];
-$payerID = $_GET['payerID'];
+$payerID = $_GET['PayerID'];
 
 ChromePhp::log($token);
 ChromePhp::log($payerID);
@@ -40,10 +40,11 @@ $requestNvp = array(
     'TOKEN'     => $token
 );
 
-// ChromePhp::log($requestNvp);
 
 //Envia a requisição e obtém a resposta da PayPal
 $responseNvp = sendNvpRequest($requestNvp, $sandbox);
+
+ChromePhp::log($responseNvp);
 
 //Se a operação tiver sido bem sucedida, redireciona o cliente para o ambiente de pagamento.
 if (isset($responseNvp['ACK']) && $responseNvp['ACK'] == 'Success') {
