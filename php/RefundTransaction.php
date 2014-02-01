@@ -51,5 +51,5 @@
 	//Verifica se a operação foi bem sucedida
 	if (isset($responseNvp['ACK']) && $responseNvp['ACK'] == 'Success') {
 	    //regras de negócio específicas para o reembolso
-	    header("location: ./#/home");
+	    header("location: http://novadelicia.com.br/cpbr/#/home");
 	}
